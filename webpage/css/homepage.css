@@ -5,10 +5,11 @@
 
 .search-bar input {
 		overflow: hidden;
+		border-radius: 20px;
 		padding: 6px;
 		background-color: #ccc;
 		text-align: center;
-		margin-top: 8px;
+		margin-top: 16px;
 		margin-right: 16px;
 		font-size: 32px;
 		width: 75%;
@@ -18,4 +19,22 @@
 .icon-top {
 		width: 30px;
 		height: auto;
+		padding: 4px;
+}
+
+.streamers {
+		margin-top: 100px;
+		color: #444;
+		padding: 45px;
+		text-align: center;
+		align: center;
+}
+
+.streamers {
+		margin-top: 70px;
+}
+
+.streamers img {
+		height: 500px;
+		width: auto;
 }
