@@ -1,2 +1,21 @@
-body {
+.center {
+		text-align: center;
+		align: center;
+}
+
+.search-bar input {
+		overflow: hidden;
+		padding: 6px;
+		background-color: #ccc;
+		text-align: center;
+		margin-top: 8px;
+		margin-right: 16px;
+		font-size: 32px;
+		width: 75%;
+		height: 40px;
+}
+
+.icon-top {
+		width: 30px;
+		height: auto;
 }
