@@ -55,6 +55,24 @@ body {
 		width: 32%;
 }
 
+.color-select:active {
+		border: 5px solid blue;
+		border-radius: 75px;
+		outline: none;
+}
+
+.color-select:focus {
+		border: 5px solid blue;
+		border-radius: 75px;
+		outline: none;
+}
+
+.color-select:visited {
+		border: 5px solid blue;
+		border-radius: 75px;
+		outline: none;
+}
+
 .twitch-con {
 		background-color: #ccc;
 		width: 100%;
