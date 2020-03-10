@@ -20,18 +20,25 @@ body {
 }
 
 .content {
-		padding: 0 18px;
 		background-color: #ccc;
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.2s ease-out;
-		width: 96%;
+		width: 100%;
 		font-size: 18px;
-		margin-left: 1%;
+}
+
+.content button {
+		background: none;
+		border: none;
 }
 
 .content img {
 		height: 75px; 
 		width: auto;
 		padding: 25px;
+}
+
+.theme-obj { 
+		text-align: center;
+		display: inline-block;
+		margin: auto;
+		width: 32%;
 }
