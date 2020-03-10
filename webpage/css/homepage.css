@@ -22,14 +22,14 @@
 }
 
 .streamers {
-		margin-top: 100px;
+		margin-top: 70px;
 		color: #444;
 		padding: 45px;
 		text-align: center;
 }
 
-.streamers {
-		margin-top: 70px;
+.streamers p {
+		font-size: 30px;
 }
 
 .streamers img {

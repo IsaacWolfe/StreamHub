@@ -1,10 +1,18 @@
 body {
-		margin: 75px 10%;
+		margin: 16px 10%;
 }
 
-.header {
-		display: block;
+.header h1 {
 		text-align: left;
+		display: inline-block;
+		margin: auto;
+		width: 95%;
+		padding-bottom: 100px;
+}
+
+.header img {
+		width: 3%;
+		height: auto;
 }
 
 .collapsible {
@@ -17,12 +25,14 @@ body {
 		text-align: left;
 		outline: none;
 		font-size: 20px;
+		border-radius: 25px;
 }
 
 .content {
 		background-color: #ccc;
 		width: 100%;
 		font-size: 18px;
+		border-radius: 25px;
 }
 
 .content button {
