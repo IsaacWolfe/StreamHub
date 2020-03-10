@@ -1,5 +1,15 @@
 $(document).ready(function() {
-		$(".collapsible").click(function() {
-				$(".content").slideToggle(800);
+		$(".themes").click(function() {
+				$(".themes-con").slideToggle(800);
+		});
+});
+$(document).ready(function() {
+		$(".twitch").click(function() {
+				$(".twitch-con").slideToggle(800);
+		});
+});
+$(document).ready(function() {
+		$(".mixer").click(function() {
+				$(".mixer-con").slideToggle(800);
 		});
 });

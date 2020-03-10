@@ -7,7 +7,7 @@ body {
 		display: inline-block;
 		margin: auto;
 		width: 95%;
-		padding-bottom: 100px;
+		padding-bottom: 25px;
 }
 
 .header img {
@@ -26,21 +26,23 @@ body {
 		outline: none;
 		font-size: 20px;
 		border-radius: 25px 25px 0 0;
+		margin-bottom: -18px;
+		margin-top: 50px;
 }
 
-.content {
+.themes-con {
 		background-color: #ccc;
 		width: 100%;
 		font-size: 18px;
 		border-radius: 0 0 25px 25px;
 }
 
-.content button {
+.themes-con button {
 		background: none;
 		border: none;
 }
 
-.content img {
+.themes-con img {
 		height: 75px; 
 		width: auto;
 		padding: 25px;
@@ -51,4 +53,50 @@ body {
 		display: inline-block;
 		margin: auto;
 		width: 32%;
+}
+
+.twitch-con {
+		background-color: #ccc;
+		width: 100%;
+		font-size: 18px;
+		border-radius: 0 0 25px 25px;
+}
+
+.twitch-con button {
+		background: none;
+		border: none;
+}
+
+.twitch-con img {
+		height: 75px; 
+		width: auto;
+		padding: 25px;
+}
+
+#trash-twitch {
+		height: 20px;
+		width: auto;
+}
+
+.mixer-con {
+		background-color: #ccc;
+		width: 100%;
+		font-size: 18px;
+		border-radius: 0 0 25px 25px;
+}
+
+.mixer-con button {
+		background: none;
+		border: none;
+}
+
+.mixer-con img {
+		height: 75px; 
+		width: auto;
+		padding: 25px;
+}
+
+#trash-mixer {
+		height: 20px;
+		width: auto;
 }
